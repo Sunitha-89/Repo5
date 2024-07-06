@@ -1,0 +1,82 @@
+journeys:
+-  name: SpringBoot 2 to SpringBoot 3
+   code: SPRINGBOOT2_TO_SPRINGBOOT3
+   roles: GenAI enabled SpringBoot 2 to Springboot 3
+   genAIPlatform:
+   -  name: IBM watsonx
+      code: watson-x
+      isIBMAdvantage: true
+
+-  name: SpringBoot 2 to Springboot 3(OR)
+   code: SPRINGBOOT2_TO_SPRINGBOOT3_OR
+   roles: OpenReWrite enabled SpringBoot 2 to Springboot 3
+
+-  name: Struts to Spring
+   code: STRUTS_TO_SPRING
+   roles: Rule enabled Struts to Spring Framework
+
+-  name: WAS to Liberty
+   code: WAS_TO_LIBERTY
+   roles: WAS_TO_LIBERTY
+
+-  name: Ejb2 to Ejb3
+   code: EJB2_TO_EJB3
+   roles: EJB2_TO_EJB3
+
+-  name: Vulnerability Fixes
+   code: vulnerabilityFixes
+   roles: vulnerabilityFixes
+
+-  name: Custom
+   code: custom
+   roles: custom
+
+-  name: Java 8 to Java 17(OR)
+   code: JAVA8_TO_JAVA17OR
+   roles: OpenReWrite enabled Java 8 to Java 17
+
+-  name: Java to Spring 2.3.4
+   code: JAVA_TO_SPRING2
+   roles: Rule based Java to Spring 2.3.4
+
+-  name: SpringBoot to Quarkus
+   code: SPRINGBOOT_TO_QUARKUS
+   roles: GenAI enabled SpringBoot to Quarkus
+   genAIPlatform:
+   -  name: IBM watsonx
+      code: watson-x
+      isIBMAdvantage: true
+   -  name: azure
+      code: azureLLM
+      isIBMAdvantage: false
+   -  name: aws
+      code: aws
+      isIBMAdvantage: false
+
+-  name: WAS to JBoss EAP7
+   code: wasTojboss
+   roles: GenAI enabled WAS to JBoss EAP7
+   genAIPlatform:
+   -  name: IBM watsonx
+      code: watson-x
+      isIBMAdvantage: true
+
+-  name: Java 8 to Java 17
+   code: GENAI_JAVA8_TO_JAVA17
+   roles: GenAI enabled Java 8 to Java 17
+   genAIPlatform:
+   -  name: IBM watsonx
+      code: watson-x
+      isIBMAdvantage: true
+
+-  name: JSR To Spring Batch
+   code: JSR_TO_SPRING_BATCH
+   roles: JSR_TO_SPRING_BATCH
+
+-  name: Tibco 5 to Camel
+   code: TIBCO5_TO_CAMEL
+   roles: Tibco 5x to Apache Camel
+
+-  name: Tibco 6 to Camel
+   code: TIBCO6_TO_CAMEL
+   roles: Tibco 6x to Apache Camel
